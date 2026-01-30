@@ -31,14 +31,14 @@ openclaw gateway restart
 
 ```json5
 {
-  channels: {
-    wecom: {
-      enabled: true,
-      webhookPath: "/wecom",
-      token: "YOUR_TOKEN",
-      encodingAESKey: "YOUR_ENCODING_AES_KEY",
-      receiveId: "",
-      dm: { policy: "pairing" }
+  "channels": {
+    "wecom": {
+      "enabled": true,
+      "webhookPath": "/wecom",
+      "token": "YOUR_TOKEN",
+      "encodingAESKey": "YOUR_ENCODING_AES_KEY",
+      "receiveId": "",
+      "dm": { "policy": "pairing" }
     }
   }
 }
@@ -85,14 +85,14 @@ openclaw gateway restart
 
 ```json5
 {
-  channels: {
-    wecom: {
-      enabled: true,
-      webhookPath: "/wecom",
-      token: "YOUR_TOKEN",
-      encodingAESKey: "YOUR_ENCODING_AES_KEY",
-      receiveId: "",
-      dm: { policy: "pairing" }
+  "channels": {
+    "wecom": {
+      "enabled": true,
+      "webhookPath": "/wecom",
+      "token": "YOUR_TOKEN",
+      "encodingAESKey": "YOUR_ENCODING_AES_KEY",
+      "receiveId": "",
+      "dm": { "policy": "pairing" }
     }
   }
 }
