@@ -4,10 +4,9 @@
   "type": "module",
   "description": "OpenClaw WeCom (WeChat Work) intelligent bot channel plugin",
   "author": "Jams",
-  "main": "wecom/index.ts",
   "openclaw": {
     "extensions": [
-      "./wecom/index.ts"
+      "./index.ts"
     ],
     "channel": {
       "id": "wecom",
@@ -27,14 +26,14 @@
       "order": 85
     },
     "install": {
-      "npmSpec": "@openclaw/qwchat-channel",
+      "npmSpec": "@openclaw/wecom",
       "localPath": ".",
       "defaultChoice": "npm"
     }
   },
   "clawdbot": {
     "extensions": [
-      "./wecom/index.ts"
+      "./index.ts"
     ],
     "channel": {
       "id": "wecom",
@@ -54,18 +53,13 @@
       "order": 85
     },
     "install": {
-      "npmSpec": "@openclaw/qwchat-channel",
+      "npmSpec": "@openclaw/wecom",
       "localPath": ".",
       "defaultChoice": "npm"
     }
   },
   "peerDependencies": {
     "openclaw": ">=2026.1.25"
-  },
-  "peerDependenciesMeta": {
-    "openclaw": {
-      "optional": false
-    }
   },
   "keywords": [
     "openclaw",
@@ -74,10 +68,5 @@
     "channel",
     "plugin"
   ],
-  "license": "ISC",
-  "files": [
-    "wecom/**",
-    "docs/**",
-    "README.md"
-  ]
+  "license": "ISC"
 }
