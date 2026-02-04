@@ -8,6 +8,9 @@ Status: WeCom intelligent bot (API mode) via encrypted webhooks + passive replie
 
 ### Local development (link)
 ```bash
+download source code
+cd openclaw-wecom-channel
+npm install
 openclaw plugins install --link wecom
 openclaw plugins enable wecom
 openclaw gateway restart
@@ -62,6 +65,9 @@ openclaw gateway restart
 
 ### 本地开发（link）
 ```bash
+下载源码
+cd openclaw-wecom-channel
+npm install
 openclaw plugins install --link wecom
 openclaw plugins enable wecom
 openclaw gateway restart
